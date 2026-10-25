@@ -7,4 +7,5 @@ export default defineConfig({
     react(),
     tailwindcss(), // 2. Add it to plugins
   ],
+  base: '/admin-dashboard/', // e.g., base: '/admin-dashboard/'
 })
